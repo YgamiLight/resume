@@ -1,0 +1,165 @@
+/* CSS RESET*/
+*{padding:0;margin:0;box-sizing:border-box;}
+a{text-decoration: none;}
+.clearfix::after{
+    content:'';
+    clear: both;
+    display: block;
+}
+body{
+    width:1240px;
+    margin:0 auto;
+}
+.page {
+    background-color: #ebe7e4;
+    margin: 0 auto;
+    max-width: 1240px;
+}
+
+.simpleIntro{
+    margin-top:20px;
+    text-align: center;
+}
+.simpleIntro h1{
+    font-weight:normal;
+}
+.simpleIntro h2{
+    font-weight:normal;
+}
+.simpleIntro img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+}
+.simpleIntro h2{
+    margin:5px auto;
+}
+.education{
+    margin-left:12%;
+}
+.education h2{
+    color:#6BD2E5;
+}
+.education svg{
+    position: relative;
+    left:-2px;
+    width:40px;
+    height:40px;
+}
+.education p{
+    margin-left:40px;
+    font-weight:bold;
+    margin-top:30px;
+}
+h2 > svg{
+    position: relative;
+    top:10px;
+    width:35px;
+    height:35px;
+}
+.project > .demos{
+    float: left;
+    margin-left:15%;
+    list-style: none;
+}
+.project > .demos a {
+    font-weight: bold;
+    color:#000000;
+}
+.project h2{
+    margin-top:30px;
+    margin-left:12%;
+    color:#6BD2E5;
+}
+.project > .descriptions li{
+    margin-top:20px;
+}
+.project  .descriptions{
+    float: left;
+    margin-left:100px;
+    list-style: none;
+}
+.project > ul li{
+    margin-top:20px;
+}
+.skills{
+    margin-left:12%;
+    float: left;
+    margin-top:30px;
+}
+.skills h2{
+    color:#6BD2E5;
+}
+.skills ul li{
+    margin-left:30px;
+    margin-top:20px;
+}
+.personalInfo{
+    float: left;
+    max-width:400px;
+    margin-left:150px;
+    margin-top:30px;
+    padding-bottom:30px;
+}
+.personalInfo h2{
+    color:#6BD2E5;
+}
+.personalInfo svg{
+    width:40px;
+    height:40px;
+}
+.aboutMe  ul li{
+    display: block;
+    margin-top:30px;
+    margin-left:20px;
+}
+.hobby h2 svg{
+    margin-top:38px;
+}
+.hobby .svg {
+    margin-top:30px;
+}
+.hobby .svg li{
+    margin-left:30px;
+    margin-right:7px;
+}
+.hobby .items{
+    display: block;
+}
+.hobby .items li{
+    margin-left:32px;
+    margin-right:13px;
+}
+.hobby ul li{
+    float: left;
+    list-style: none;
+}
+.examples li{
+    margin-top:30px;
+    margin-left:20px;
+}
+.contact{
+    margin-top:30px;
+    float: left;
+    margin-left:12%;
+    padding-bottom:20px;
+}
+.contact h2{
+    color:#6BD2E5;
+}
+.contact p{
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:10px;
+    float: left;
+}
+
+.contact svg{
+    width:30px;
+    height:30px;
+    position: relative;
+    top:10px;
+}
+
+
+
