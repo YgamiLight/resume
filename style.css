@@ -66,6 +66,9 @@ h2 > svg{
     font-weight: bold;
     color:#000000;
 }
+.descriptions{
+    max-width:55%;
+}
 .project h2{
     margin-top:30px;
     margin-left:12%;
