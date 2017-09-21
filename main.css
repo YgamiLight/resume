@@ -1,0 +1,285 @@
+*{padding:0;margin:0;list-style: none; font-weight:normal; box-sizing: border-box}
+a{text-decoration: none}
+.tabs{
+    height:100vh;
+    background-color: darkseagreen;
+    width:250px;
+    position: fixed;
+    top:0;
+    left:0;
+}
+.tabs .myImg{
+    margin-top:100px;
+    text-align: center;
+}
+.tabs .myImg img{
+    width:100px;
+    height:100px;
+    vertical-align: top;
+    border-radius:50%;
+}
+.tabs .tab{
+    margin-top:100px;
+}
+.tabs .tab li {
+    margin-top: 30px;
+    display: block;
+    text-indent: 3em;
+    height: 50px;
+    line-height: 50px;
+    font-size: 17px;
+}
+.tabs .tab li:hover{
+    cursor: pointer;
+    color:orange;
+}
+
+.tabs li.active{
+    color:#00c2ff;
+    background-color: #312e2c;
+}
+.tabs .pdf{
+    text-align: center;
+}
+.tabs a{
+    color:#1DC0E3;
+    margin:60px auto;
+    display: inline-block;
+    text-align: center;
+    border:1px solid skyblue;
+    border-radius:4px;
+    padding:4px 10px;
+    background-color: #2B2B2B;
+}
+.tabs footer{
+    position: absolute;
+    bottom: 50px;;
+    left:0;
+    width:100%;
+    text-align: center;
+}
+.tabs footer .links{
+    letter-spacing: 2em;
+    margin-bottom:20px;
+}
+.tabs footer small{
+    text-align: center;
+    color:#ddd;
+    font-size:14px;
+}
+
+.tabs footer svg{
+    width:35px;
+    height:35px;
+    vertical-align: middle;
+}
+.tabContent{
+    margin-left:250px;
+}
+.myInfoPage{
+    background-color: palegoldenrod;
+    height:100vh;
+}
+.myInfoPage .head{
+    padding-top:50px;
+}
+.myInfoPage .head .headMessage{
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    width:30%;
+}
+.myInfoPage .head .headMessage .myPosition{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction:column;
+    width:100%;
+}
+.myInfoPage .head .headMessage .myPosition p span{
+    color:#00c2ff;
+    font-size:17px;
+}
+.myInfoPage .head .headMessage .myPosition h1 {
+    margin-bottom:20px;
+}
+.myInfoPage .self-assessment{
+    width:68%;
+    text-align: center;
+    margin:50px auto;
+}
+.myInfoPage .self-assessment svg {
+    width:25px;
+    height:25px;
+    vertical-align: middle;
+}
+.myInfoPage .self-assessment{
+    text-align:left;
+}
+.myInfoPage .self-assessment ul li{
+    margin-top: 30px;
+    text-indent: 2em;
+}
+.tabContent > div{
+    display: none;
+}
+.tabContent div.active{
+    display: block;
+}
+.tabContent .project{
+    margin:40px auto;
+    width:40%;
+    outline:1px solid #ddd;
+    box-shadow: rgba(0, 0, 0, 0.19) 0 10px 30px, rgba(0, 0, 0, 0.23) 0 6px 10px;
+    border-radius:4px;
+}
+.tabContent .myProjectsPage h1{
+    text-align: center;
+    margin:20px;
+}
+
+.tabContent .myProjectsPage h2{
+    line-height: 60px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.tabContent .project img {
+    width:100%;
+    display: block;
+}
+.tabContent .project svg{
+    width:25px;
+    height:25px;
+    vertical-align: middle;
+}
+.tabContent .project article {
+    padding:1.5em;
+    position: relative;
+}
+.tabContent .project article::before{
+    display: block;
+    content: '';
+    position: absolute;
+    top:0;
+    left:0;
+    width:200%;
+    height:200%;
+    border-bottom:2px solid #ddd;
+    transform-origin: 0 0;
+    transform: scale(0.5);
+    z-index:-1;
+}
+.tabContent .project article p{
+    margin-top:10px;
+}
+.tabContent .project article p span {
+    color: #00c2ff;
+    font-weight: bolder;
+    font-size:17px;
+}
+.tabContent .project footer{
+    line-height: 50px;
+    height: 50px;
+    padding-left:20px;
+    word-spacing: 20px;
+}
+.tabContent .project footer a{
+    position: relative;
+    display: inline-block;
+    float: right;
+    border-radius: 4px;
+    margin-right:20px;
+    color:black;
+    padding:0 10px;
+}
+.tabContent .project footer a::before{
+    position: absolute;
+    content: '';
+    display: block;
+    border:1px solid #00c2ff;
+    border-radius: 30px;
+    top:0;
+    left:0;
+    width:200%;
+    height:100%;
+    transform-origin: 0 50%;
+    transform:scale(0.5);
+    z-index: -1;
+}
+.tabContent .mySkillsPage{
+    height:100vh;
+    background: url("//i.loli.net/2017/09/21/59c389f0551a0.png ") no-repeat;
+    padding-top:50px;
+}
+.tabContent .mySkillsPage .myContent{
+    margin:0 auto;
+    width:80%;
+    position: relative;
+    z-index:3;
+    color:white;
+}
+.tabContent .mySkillsPage  h1{
+    text-align: center;
+    width:100%;
+    margin-bottom:40px;
+}
+.tabContent .mySkillsPage .myContent .myContentImg{
+    width:100%;
+    height:100%;
+    position: absolute;
+    content:"";
+    display: block;
+    background: url("//i.loli.net/2017/09/21/59c389f0551a0.png ") no-repeat;
+    filter:blur(100px) brightness(1);
+    top:0;
+    left:0;
+    z-index:-1;
+}
+.tabContent .mySkillsPage .myContent > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border:1px solid #ddd;
+    box-shadow: rgba(0, 0, 0, 0.19) 0 10px 30px, rgba(0, 0, 0, 0.23) 0 6px 10px;
+    border-radius:4px;
+}
+.tabContent .mySkillsPage .myContent >ul>li{
+    padding:1em;
+    width:40%;
+}
+.tabContent .mySkillsPage .myContent >ul>li>span {
+    font-weight:bold;
+    color:#FAC552;
+    font-size:17px;
+}
+.tabContent .mySkillsPage .myContent li ul >li{
+    text-indent: 2em;
+    margin-top:10px;
+}
+.tabContent .mySkillsPage .myContent >ul li b {
+    color:lawngreen;
+    font-weight:bold;
+    font-size:18px;
+}
+.tabContent .myContactPage{
+    height:100vh;
+    background-color: #ddd;
+    padding-top:50px;
+}
+.tabContent .myContactPage h1{
+    text-align: center;
+    margin-bottom:100px;
+}
+
+.tabContent .myContactPage p{
+    margin-top:20px;
+    padding-left:40%;
+
+}
+.tabContent .myContactPage svg{
+    width:50px;
+    height:50px;
+    vertical-align: middle;
+}

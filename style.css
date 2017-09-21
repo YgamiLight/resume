@@ -112,6 +112,7 @@ h2 > svg{
     height:40px;
 }
 .aboutMe  ul li{
+    text-indent: 2em;
     display: block;
     margin-top:30px;
     margin-left:20px;
