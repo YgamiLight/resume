@@ -244,6 +244,7 @@ a{text-decoration: none}
     border:1px solid #ddd;
     box-shadow: rgba(0, 0, 0, 0.19) 0 10px 30px, rgba(0, 0, 0, 0.23) 0 6px 10px;
     border-radius:4px;
+    padding:2em;
 }
 .tabContent .mySkillsPage .myContent >ul>li{
     padding:1em;
@@ -251,7 +252,7 @@ a{text-decoration: none}
 }
 .tabContent .mySkillsPage .myContent >ul>li>span {
     font-weight:bold;
-    color:#FAC552;
+    color:orangered;
     font-size:17px;
 }
 .tabContent .mySkillsPage .myContent li ul >li{
