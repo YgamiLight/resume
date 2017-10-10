@@ -16,21 +16,15 @@ QQ：1075049028
 
 使用媒体查询、Flex 布局制作的响应式页面。
 
-2.一个苹果风格的轮播组件[轮播](http://js.jirengu.com/tihuy/2)
- 使用JQuery制作的苹果风格轮播（没有使用插件，手写JQuery轮播）
-
-3.一个手机画板[Canvas画图](https://ygamilight.github.io/mobile-drawing-board/index.html)
+2.一个手机画板[Canvas画图](https://ygamilight.github.io/mobile-drawing-board/index.html)
 使用JQuery，借助 Canvas API 和动态 REM 方案（flexible.js）制作的手机画板
 
-4.英雄联盟官网仿制
+3.一个手机端的[网易云音乐](yagamilight.top/home.html)
 
-使用 jQuery、Slides.js、自制的 Tab 组件，像素级精确还原[英雄联盟官网](https://github.com/frankfang)。
-
-5.自制DOM库、JQuery库
-
-6.放锤子手机官网制作一个3D效果的[Banner](http://js.jirengu.com/faced)
+3.放锤子手机官网制作一个3D效果的[Banner](https://ygamilight.github.io/my3DBanner/index.html)
 
   ​ 原生JS操作，CSS的运用
+5.用Vue制作的一个可供预览的[在线简历编辑器](https://ygamilight.github.io/Vue-Resume/VueResume/dist/)
 
 ## 工作经历
 
