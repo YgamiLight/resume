@@ -79,7 +79,6 @@ body{height:100%}
     margin-left:250px;
 }
 .myInfoPage{
-    background-color: palegoldenrod;
     height:100vh;
 }
 .myInfoPage .head{
@@ -90,6 +89,11 @@ body{height:100%}
     justify-content: center;
     margin:0 auto;
     width:30%;
+}
+.myInfoPage .head .headMessage img{
+    width:200px;
+    height:200px;
+    vertical-align: top;
 }
 .myInfoPage .head .headMessage .myPosition{
     text-align: center;
