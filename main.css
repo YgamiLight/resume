@@ -43,7 +43,7 @@ body{height:100%}
 .tabs .pdf{
     text-align: center;
 }
-.tabs a{
+.pdf a{
     color:#1DC0E3;
     margin:30px auto;
     display: inline-block;
@@ -54,9 +54,6 @@ body{height:100%}
     background-color: #2B2B2B;
 }
 .tabs footer{
-    position: absolute;
-    bottom: 40px;;
-    left:0;
     width:100%;
     text-align: center;
 }
@@ -91,8 +88,6 @@ body{height:100%}
     width:30%;
 }
 .myInfoPage .head .headMessage img{
-    width:200px;
-    height:200px;
     vertical-align: top;
 }
 .myInfoPage .head .headMessage .myPosition{
