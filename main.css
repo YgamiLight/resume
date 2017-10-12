@@ -226,9 +226,9 @@ body{height:100%}
     z-index: -1;
 }
 .tabContent .mySkillsPage{
-    height:100%;
-    background: url("//i.loli.net/2017/09/21/59c389f0551a0.png ") no-repeat;
-    padding-top:50px;
+    height:100vh;
+    background: url("//i.loli.net/2017/10/12/59df463e7130c.jpg") no-repeat;
+    background-size:cover;
 }
 .tabContent .mySkillsPage .myContent{
     height:100%;
@@ -241,7 +241,6 @@ body{height:100%}
 .tabContent .mySkillsPage  h1{
     text-align: center;
     width:100%;
-    margin-bottom:20px;
 }
 .tabContent .mySkillsPage .myContent .myContentImg{
     width:100%;
@@ -249,7 +248,7 @@ body{height:100%}
     position: absolute;
     content:"";
     display: block;
-    background: url("//i.loli.net/2017/09/21/59c389f0551a0.png ") no-repeat;
+    background: url("//i.loli.net/2017/10/12/59df463e7130c.jpg") no-repeat;
     filter:blur(100px) brightness(1);
     top:0;
     left:0;
@@ -266,19 +265,18 @@ body{height:100%}
 }
 .tabContent .mySkillsPage .myContent >ul>li{
     padding:1em;
-    width:40%;
+    width:45%;
 }
 .tabContent .mySkillsPage .myContent >ul>li>span {
     font-weight:bold;
-    color:orangered;
+    color:chartreuse;
     font-size:17px;
 }
 .tabContent .mySkillsPage .myContent li ul >li{
-    text-indent: 2em;
     margin-top:10px;
 }
 .tabContent .mySkillsPage .myContent >ul li b {
-    color:magenta;
+    color:aqua;
     font-weight:bold;
     font-size:18px;
 }
