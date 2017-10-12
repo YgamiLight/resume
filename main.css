@@ -11,8 +11,10 @@ body{height:100%}
     left:0;
 }
 .tabs .myImg{
-    margin-top:40px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:20vh;
 }
 .tabs .myImg img{
     width:100px;
@@ -21,10 +23,12 @@ body{height:100%}
     border-radius:50%;
 }
 .tabs .tab{
-    margin-top:100px;
+    height:40vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
 }
 .tabs .tab li {
-    margin-top: 30px;
     display: block;
     text-indent: 3em;
     height: 50px;
@@ -41,7 +45,10 @@ body{height:100%}
     background-color: #312e2c;
 }
 .tabs .pdf{
-    text-align: center;
+    height:20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .pdf a{
     color:#1DC0E3;
@@ -54,8 +61,12 @@ body{height:100%}
     background-color: #2B2B2B;
 }
 .tabs footer{
+    height:20vh;
     width:100%;
-    text-align: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
 }
 .tabs footer .links{
     letter-spacing: 2em;
@@ -97,6 +108,11 @@ body{height:100%}
     justify-content: center;
     flex-wrap: wrap;
     flex-direction:column;
+    width:100%;
+}
+.myInfoPage .head .headMessage .myPosition .description{
+    display: flex;
+    justify-content: space-around;
     width:100%;
 }
 .myInfoPage .head .headMessage .myPosition p span{
