@@ -20,8 +20,18 @@ QQ：10****49028
 * 使用vue.$emitAPI实现组件之间的数据共享。
 * 使用Google Tag magager对页面埋点，分析用户行为。
 * 使用Sass开发页面样式，通过media query实现了页面的响应式。
-2. 车辆管理大数据平台
-2.1 使用
+2. 养老院智能手表管理系统（Web),负责其中一些子模块的实现。
+* 项目全程采用TypeScript + React + React Hooks编写
+* 登录采用JWT + cookie的方式，即把jwt token存在cookie里面。
+* 使用redux thunk、promisify中间件来处理异步的action
+* 使用redux react-router中间件来集成路由的操作
+* 使用自定义中间件来进行统一的错误处理(400、403、503)、谷歌行为分析埋点、数据特殊处理
+* 使用antd charts来制作图标（饼图、折线图、柱状图）
+* 使用Google Map进行地图开发、使用到了Marker、Circle、以及fitBounds等API.
+* 使用axios拦截器来对页面进行鉴权。
+* 使用vue.$emitAPI实现组件之间的数据共享。
+* 使用Google Tag magager对页面埋点，分析用户行为。
+* 使用Sass开发页面样式，通过media query实现了页面的响应式。
 // TODOS
 
 ## 工作经历
@@ -64,6 +74,10 @@ QQ：10****49028
   - 使用taro写过一个简单的小游戏
 - 前端工程化
   - 良好的编程风格（不使用===、魔法数字、命名时尽量使其有意义、给复杂逻辑写注释）
+  - 会使用Jenkins进行代码部署
+  - 会写简单的bitbucket pipeline脚本来自动化部署、发布页面
+  - 会写Eslint+prettier配置文件检查代码语法和风格
+  - 熟练掌握使用git workflow开发流程
 - 与后端配合开发
   - 熟知各种HTTP状态码的意义、会通过查看http头找准问题的所在。
   - 使用过docker进行项目容器化，了解docker的常用命令。
