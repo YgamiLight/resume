@@ -32,6 +32,13 @@ QQ：10****49028
 * 使用vue.$emitAPI实现组件之间的数据共享。
 * 使用Google Tag magager对页面埋点，分析用户行为。
 * 使用Sass开发页面样式，通过media query实现了页面的响应式。
+3.养老院智能手表管理系统（APP),负责其中一些子页面的实现。
+* 使用useSWR进行数据请求，包括请求数据的共享
+* 使用react-native-networkInfo来检测设备网络状态，并且渲染断网的视图
+* 使用zustand进行状态管理
+* 使用react-navigation进行路由管理
+* 使用Firebase + SNS 与硬件通信
+* 
 // TODOS
 
 ## 工作经历
